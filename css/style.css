@@ -225,7 +225,7 @@ input,
 select,
 textarea {
   color: #4A4A4A;
-  font-family: "Karma", serif;
+  font-family: "Arial", serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -1014,7 +1014,7 @@ object {
   display: none; }
 
 .slb_template_tag_item_title {
-  font-family: "Karma", serif;
+  font-family: "Arial", serif;
   font-size: 16px;
   color: #FBF9F4; }
 

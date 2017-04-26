@@ -1,0 +1,29 @@
+// @import "../layout/content-sidebar";
+// @import "../layout/sidebar-content";
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+@import "primary/comments";
+
+// SHOWS
+.yeni-shows {
+	margin-top: 2.75em;
+}
+
+.yeni-show {
+	margin-bottom: 2.125em;
+
+	h3 {
+		border-bottom: 1px solid $grey-dark;
+		margin-bottom: .8125em;
+	}
+}
+
+.show-links {
+	color: $red;
+}

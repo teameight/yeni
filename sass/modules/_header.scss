@@ -1,0 +1,31 @@
+.site-header {
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+
+	@media screen and (min-width: $bp-md) {
+		width: 320px;
+		transform: translateX(-320px);
+		transition: transform .3s ease-out;
+
+		&.toggled {
+			transform: translateX(0);
+		}
+	}
+}
+
+.main-logo {
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+
+	&:hover {
+		g,
+		path {
+			fill: $red;
+		}
+	}
+
+	@media screen and (min-width: $bp-md) {
+	}
+}

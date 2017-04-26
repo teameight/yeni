@@ -1,0 +1,52 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button {
+	border: 1px solid $red;
+	color: $red;
+	background-color: transparent;
+	line-height: 2;
+	padding: 10px 16px 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2.26px;
+	font-weight: 500;
+	transition: all .2s ease-out;
+
+	&:hover {
+		background-color: $red;
+		color: $beige;
+		text-decoration: none;
+	}
+
+	&:active,
+	&:focus {
+		background-color: $red;
+		color: $beige;
+	}
+}
+
+.button-secondary {
+	border-color: $beige !important;
+	color: $beige !important;
+
+	&:hover {
+		background-color: $beige !important;
+		color: $red !important;
+		text-decoration: none;
+	}
+}
+
+button.menu-toggle {
+	border: none;
+	background: none;
+	box-shadow: none;
+	color: inherit;
+	padding: 0;
+	display: inline-block;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	z-index: 1000000;
+}

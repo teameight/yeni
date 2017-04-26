@@ -1,0 +1,80 @@
+.site-footer {
+	background-color: $black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: $offwhite;
+	font-size: 9px;
+	padding: 20px 0;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	z-index: 100000000;
+
+	a,
+	a:visited,
+	a:active {
+		color: $color__link-alt;
+	}
+
+	a:hover {
+		color: $color__link-alt-hover;
+	}
+}
+
+// Signup form
+.signup {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 100000000;
+
+	&.active {
+		display: flex;
+	}
+
+	.signup-close-container {
+		margin-bottom: 0;
+	}
+
+	.signup-close {
+		position: absolute;
+		width: 14px !important;
+		height: 14px !important;
+		top: 10px;
+		right: 10px;
+		cursor: pointer;
+		z-index: 10000000;
+	}
+
+	p,
+	.nf-response-msg {
+		color: $beige;
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 1.125em;
+	}
+
+	.nf-error-msg {
+		color: $grey-dark;
+	}
+
+	.nf-form-cont {
+		background-color: $red;
+		padding: 30px;
+		width: 100%;
+		max-width: 475px;
+		position: relative;
+
+		input[type=text],
+		input[type=email] {
+			background-color: $beige;
+		}
+	}
+}

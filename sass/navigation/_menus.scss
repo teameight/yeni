@@ -1,0 +1,173 @@
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+	height: calc(100vh + 60px);
+	background-color: $black;
+	transform: translateY(-90%);
+	transition: transform .3s ease-out;
+
+	&.toggled {
+		transform: translateY(0);
+	}
+
+	@media screen and (min-width: $bp-md) {
+		transform: translateY(0);
+		background-color: rgba($black, .47);
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+	}
+
+	li {
+		position: relative;
+		display: block;
+		text-align: center;
+
+		> a:hover,
+		&.focus > a {
+			color: $color__link;
+			text-decoration: none;
+		}
+	}
+
+	a {
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current-menu-ancestor > a {
+	}
+}
+
+.primary-menu {
+
+	ul {
+		margin-top: 40px;
+	}
+
+	a {
+		color: $offwhite;
+		text-transform: uppercase;
+		font-size: 1.125em;
+		line-height: 2;
+		letter-spacing: 3px;
+	}
+}
+
+.secondary-menu {
+	ul {
+		margin-top: 40px;
+	}
+
+	a {
+		color: $yellow;
+		font-size: 1.125em;
+		line-height: 1.777;
+		letter-spacing: 1.5px;
+
+		&:hover {
+			color: $red;
+		}
+	}
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
+
+/* Menu Toggle */
+.menu-toggle {
+	outline: none;
+}
+
+.menu-toggle-light {
+	display: inline;
+}
+
+.menu-toggle-dark {
+	display: none;
+}
+
+.menu-toggle-close {
+	display: none;
+}
+
+@media screen and (min-width: $bp-md) {
+	.menu-toggle-light {
+		display: none;
+	}
+
+	.menu-toggle-dark {
+		display: inline;
+	}
+}
+
+.menu-toggle.toggled {
+
+	.menu-toggle-light {
+		display: none;
+	}
+
+	.menu-toggle-dark {
+		display: none;
+	}
+
+	.menu-toggle-close {
+		display: inline;
+	}
+}
+
+// Social Icons
+.social-icons {
+	text-align: center;
+	margin-top: 40px;
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	svg {
+		height: 19px;
+		width: auto;
+		display: inline-block;
+		padding: 0 7px;
+
+		&:hover .social-icon {
+			fill: $red;
+		}
+	}
+}

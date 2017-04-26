@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	margin: 0;
+}
+
+h1,
+.h1 {
+	font-size: 1.875em;
+}
+
+h2,
+.h2 {
+	font-size: 1.25em;
+}
+
+h3,
+.h3 {
+	font-size: .933em;
+	text-transform: uppercase;
+	letter-spacing: 1.23px;
+	font-weight: normal;
+}

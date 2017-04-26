@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info gibson">
-			<span>&copy; 2017 Yeni Nostalji. Site by <a href="//team-eight.com">Team Eight</a></span>
+			<span>&copy; <?php echo date('Y'); ?> Yeni Nostalji. Site by <a href="//team-eight.com">Team Eight</a></span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

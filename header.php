@@ -16,8 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link href="https://fonts.googleapis.com/css?family=Karma:300" rel="stylesheet">
-<script src="https://use.typekit.net/gno0url.js"></script>
+<script src="https://use.typekit.net/ysg2dgm.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <?php wp_head(); ?>

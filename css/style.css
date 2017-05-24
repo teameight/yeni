@@ -313,7 +313,7 @@ blockquote, q {
 
 blockquote {
   margin: 0;
-  color: #F44E4E;
+  color: #6668ED;
   font-size: 1.125em;
   font-style: italic; }
 
@@ -361,8 +361,8 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-  border: 1px solid #F44E4E;
-  color: #F44E4E;
+  border: 1px solid #6668ED;
+  color: #6668ED;
   background-color: transparent;
   line-height: 2;
   padding: 10px 16px 10px;
@@ -377,7 +377,7 @@ input[type="submit"],
   input[type="reset"]:hover,
   input[type="submit"]:hover,
   .button:hover {
-    background-color: #F44E4E;
+    background-color: #6668ED;
     color: #F5F1E6;
     text-decoration: none; }
   button:active, button:focus,
@@ -389,7 +389,7 @@ input[type="submit"],
   input[type="submit"]:focus,
   .button:active,
   .button:focus {
-    background-color: #F44E4E;
+    background-color: #6668ED;
     color: #F5F1E6; }
 
 .button-secondary {
@@ -397,7 +397,7 @@ input[type="submit"],
   color: #F5F1E6 !important; }
   .button-secondary:hover {
     background-color: #F5F1E6 !important;
-    color: #F44E4E !important;
+    color: #6668ED !important;
     text-decoration: none; }
 
 button.menu-toggle {
@@ -473,10 +473,10 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #F44E4E;
+  color: #6668ED;
   text-decoration: none; }
   a:visited {
-    color: #F44E4E; }
+    color: #6668ED; }
   a:hover, a:focus, a:active {
     text-decoration: underline; }
   a:focus {
@@ -512,7 +512,6 @@ a {
     text-align: center; }
     .main-navigation li > a:hover,
     .main-navigation li.focus > a {
-      color: #F44E4E;
       text-decoration: none; }
 
 .primary-menu ul {
@@ -525,18 +524,20 @@ a {
   font-weight: 500;
   line-height: 2.2;
   letter-spacing: 3px; }
+  .primary-menu a:hover {
+    color: #6668ED; }
 
 .secondary-menu ul {
   margin-top: 40px; }
 
 .secondary-menu a {
-  color: #FAD84D;
+  color: #6668ED;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.8;
   letter-spacing: 1.5px; }
   .secondary-menu a:hover {
-    color: #F44E4E; }
+    color: #FBF9F4; }
 
 /* Small menu. */
 .menu-toggle,
@@ -601,7 +602,7 @@ a {
     display: inline-block;
     padding: 0 7px; }
     .social-icons svg:hover .social-icon {
-      fill: #F44E4E; }
+      fill: #6668ED; }
 
 .site-header {
   position: fixed;
@@ -619,12 +620,15 @@ a {
   display: block;
   text-align: center;
   margin-top: 100px; }
+  .main-logo g,
+  .main-logo path {
+    fill: #6668ED; }
   .main-logo:hover g,
   .main-logo:hover path {
-    fill: #F44E4E; }
+    fill: #FBF9F4; }
 
 .site-footer {
-  background-color: #000;
+  background-color: #404042;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -637,9 +641,9 @@ a {
   .site-footer a,
   .site-footer a:visited,
   .site-footer a:active {
-    color: #FAD84D; }
+    color: #6668ED; }
   .site-footer a:hover {
-    color: #F44E4E; }
+    color: #FBF9F4; }
 
 .signup {
   display: none;
@@ -673,7 +677,7 @@ a {
   .signup .nf-error-msg {
     color: #4A4A4A; }
   .signup .nf-form-cont {
-    background-color: #F44E4E;
+    background-color: #6668ED;
     padding: 30px;
     width: 100%;
     max-width: 475px;
@@ -716,15 +720,15 @@ a {
 
 @keyframes color-fade {
   0% {
-    background-color: rgba(250, 171, 77, 0.27); }
+    background-color: rgba(104, 106, 241, 0.15); }
   25% {
-    background-color: rgba(244, 78, 78, 0.27); }
+    background-color: rgba(210, 40, 73, 0.15); }
   50% {
-    background-color: rgba(10, 179, 165, 0.27); }
+    background-color: rgba(189, 15, 225, 0.15); }
   75% {
-    background-color: rgba(77, 21, 124, 0.27); }
+    background-color: rgba(57, 8, 67, 0.15); }
   100% {
-    background-color: rgba(250, 171, 77, 0.27); } }
+    background-color: rgba(104, 106, 241, 0.15); } }
 
 .none-content {
   width: 100%;
@@ -743,7 +747,7 @@ a {
   .none-overlay span {
     display: block; }
   .none-overlay .none-oops {
-    color: #F44E4E;
+    color: #6668ED;
     font-size: 3em;
     font-style: italic; }
   .none-overlay .none-404 {
@@ -909,7 +913,7 @@ a {
     font-weight: 500; }
 
 .show-links {
-  color: #F44E4E; }
+  color: #6668ED; }
 
 /*--------------------------------------------------------------
 # Infinite scroll

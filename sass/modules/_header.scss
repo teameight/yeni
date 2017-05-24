@@ -19,10 +19,15 @@
 	text-align: center;
 	margin-top: 100px;
 
+	g,
+	path {
+		fill: $red;
+	}
+
 	&:hover {
 		g,
 		path {
-			fill: $red;
+			fill: $offwhite;
 		}
 	}
 

@@ -31,7 +31,7 @@
 
 		> a:hover,
 		&.focus > a {
-			color: $color__link;
+			// color: $color__link;
 			text-decoration: none;
 		}
 	}
@@ -59,6 +59,10 @@
 		font-weight: 500;
 		line-height: 2.2;
 		letter-spacing: 3px;
+
+		&:hover {
+			color: $red;
+		}
 	}
 }
 
@@ -75,7 +79,7 @@
 		letter-spacing: 1.5px;
 
 		&:hover {
-			color: $red;
+			color: $offwhite;
 		}
 	}
 }

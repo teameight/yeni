@@ -135,10 +135,18 @@
 @media screen and (min-width: $bp-md) {
 	.menu-toggle-light {
 		display: none;
+
+		.home & {
+			display: inline;
+		}
 	}
 
 	.menu-toggle-dark {
 		display: inline;
+
+		.home & {
+			display: none;
+		}
 	}
 }
 

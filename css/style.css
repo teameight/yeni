@@ -579,8 +579,12 @@ a {
 @media screen and (min-width: 600px) {
   .menu-toggle-light {
     display: none; }
+    .home .menu-toggle-light {
+      display: inline; }
   .menu-toggle-dark {
-    display: inline; } }
+    display: inline; }
+    .home .menu-toggle-dark {
+      display: none; } }
 
 .menu-toggle.toggled .menu-toggle-light {
   display: none; }

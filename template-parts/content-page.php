@@ -26,7 +26,7 @@
 						<h3><?php the_sub_field('date') ?> | <?php the_sub_field('time'); ?></h3>
 						<span><?php the_sub_field('description'); ?></span><br>
 						<div class="show-links">
-							<?php if ( get_sub_field('ticket_link') ) { ?><a href="<?php the_sub_field('ticket_link'); ?>">tickets</a><?php } if ( get_sub_field('event_page_link') ) { ?> | <a href="<?php the_sub_field('event_page_link'); ?>">event page</a><?php } ?>
+							<?php if ( get_sub_field('event_page_link') ) { ?><a href="<?php the_sub_field('event_page_link'); ?>">more info</a><?php } ?>
 						</div>
 					</div>
 
